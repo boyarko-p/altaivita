@@ -1,22 +1,131 @@
 <!doctype html>
 <html lang="ru">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport"
-          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>AltaiVita</title>
-    <link rel="icon" href="img/favicon/favicon.png">
-    <link rel="stylesheet" href="css/main.min.css">
+	<meta charset="UTF-8">
+	<meta name="viewport"
+	      content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>AltaiVita</title>
+	<link rel="icon" href="img/favicon/favicon.png">
+	<link rel="stylesheet" href="css/main.min.css">
 </head>
 <body>
-<header>
-    <div class="container">
-    
-    </div>
+<header class="header">
+	<div class="container">
+		<div class="header__top">
+			<div class="header__main-logo">
+				<a href="index.html">
+					<img src="img/home/main-logo.png" alt="Логотип">
+				</a>
+			</div>
+			<div class="header__top-center">
+				<div class="header__phone">
+					<i class="far fa-phone-alt"></i>
+					<span class="header__phone-number">8-800-555-1804</span>
+					(бесплатно по России)
+				</div>
+				<div class="header__search-box">
+					<form>
+						<input type="text" placeholder="Найти среди 500 товаров">
+						<button type="submit"><i class="far fa-search"></i></button>
+					</form>
+				</div>
+			</div>
+			<div class="header__top-right">
+				<div class="header__profile">
+					<button type="button">
+						<i class="fal fa-user-circle"></i>
+						<span>Личный кабинет</span>
+					</button>
+				</div>
+				<div class="header__basket">
+					<a href="#">
+						<i class="far fa-shopping-bag"></i>
+						<span>Корзина заказа</span>
+					</a>
+				</div>
+			</div>
+		</div>
+		<div class="header__nav">
+			<ul class="header__nav-list left">
+				<li><i class="fal fa-bars"></i></li>
+				<li><a href="#">Каталог продукции</a></li>
+				<li><a href="#">Доставка и оплата</a></li>
+				<li><a href="#">Качество</a></li>
+			</ul>
+			<ul class="header__nav-list right">
+				<li><a href="#">О магазине</a></li>
+				<li><a href="#">Оптовые продажи</a></li>
+				<li><a href="#">Контакты</a></li>
+			</ul>
+		</div>
+	</div>
 </header>
-<main>
-
+<main class="main">
+	<div class="container">
+		<h1>Интернет-магазин трав, травяных чаёв и мёда</h1>
+		<section class="promo-slider">
+			<div class="promo-slider__inner">
+				<h2>Алтайские травяные чаи</h2>
+				<p>Сохраняют всю силу природы предгорьев Алтая</p>
+				<a href="#">Смотреть чаи</a>
+			</div>
+		</section>
+		<div class="advantages">
+			<div class="advantages__item">
+				<p>Осуществляем <a href="#">доставку</a> не только по России, но и за рубеж.</p>
+			</div>
+			<div class="advantages__item">
+				<p>Магазин с репутацией. Отзывы о нас можно почитать на <a href="#">нашем сайте</a>, <a
+						href="#">Яндексе</a> и <a href="#">Google</a></p>
+			</div>
+			<div class="advantages__item"><p>Собственное <a href="#">производство</a> продукции с контролем качества</p>
+			</div>
+		</div>
+	</div>
+	<section class="popular-product">
+		<div class="container">
+			<h2>Популярные продукты</h2>
+			<div class="popular-product__row">
+				<div class="product__item">
+					<div class="product__img">
+						<a href="#">
+							<img src="img/home/popular-product-tea.jpg" alt="Чай Хохот шамана">
+						</a>
+					</div>
+					<div class="product__info"></div>
+					<div class="product__buy"></div>
+				</div>
+				<div class="product__item">
+					<div class="product__img">
+						<a href="#">
+							<img src="img/home/popular-category-herb.png" alt="Трава Сабельник">
+						</a>
+					</div>
+					<div class="product__info"></div>
+					<div class="product__buy"></div>
+				</div>
+				<div class="product__item">
+					<div class="product__img">
+						<a href="#">
+							<img src="img/home/popular-product-honey.jpg" alt="Гречишный мед">
+						</a>
+					</div>
+					<div class="product__info"></div>
+					<div class="product__buy"></div>
+				</div>
+				<div class="product__item">
+					<div class="product__img">
+						<a href="#">
+							<img src="img/home/popular-product-health.jpg" alt="Гриб рейши">
+						</a>
+					</div>
+					<div class="product__info"></div>
+					<div class="product__buy"></div>
+				</div>
+			</div>
+		</div>
+	</section>
 </main>
 <footer>
 
