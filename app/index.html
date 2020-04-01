@@ -65,11 +65,13 @@
 	<div class="container">
 		<h1>Интернет-магазин трав, травяных чаёв и мёда</h1>
 		<section class="promo-slider">
+			<i class="fal fa-chevron-left"></i>
 			<div class="promo-slider__inner">
 				<h2>Алтайские травяные чаи</h2>
 				<p>Сохраняют всю силу природы предгорьев Алтая</p>
 				<a class="promo-slider-btn green-btn" href="#">Смотреть чаи</a>
 			</div>
+			<i class="fal fa-chevron-right"></i>
 		</section>
 		<div class="advantages">
 			<div class="advantages__item">
@@ -108,7 +110,17 @@
 							<span class="weight">160 гр</span>
 						</div>
 					</div>
-					<div class="product__buy"></div>
+					<div class="product__buy">
+						<div class="product__more">
+							<i class="fal fa-minus"></i>
+							<span>1</span>
+							<i class="fal fa-plus"></i>
+						</div>
+						<div class="product__basket">
+							<i class="far fa-shopping-bag"></i>
+							<span>В корзину</span>
+						</div>
+					</div>
 				</div>
 				<div class="product__item">
 					<div class="product__img">
@@ -131,7 +143,17 @@
 							<span class="weight">100 гр</span>
 						</div>
 					</div>
-					<div class="product__buy"></div>
+					<div class="product__buy">
+						<div class="product__more">
+							<i class="fal fa-minus"></i>
+							<span>1</span>
+							<i class="fal fa-plus"></i>
+						</div>
+						<div class="product__basket">
+							<i class="far fa-shopping-bag"></i>
+							<span>В корзину</span>
+						</div>
+					</div>
 				</div>
 				<div class="product__item">
 					<div class="product__img">
@@ -154,7 +176,17 @@
 							<span class="weight">700 гр</span>
 						</div>
 					</div>
-					<div class="product__buy"></div>
+					<div class="product__buy">
+						<div class="product__more">
+							<i class="fal fa-minus"></i>
+							<span>1</span>
+							<i class="fal fa-plus"></i>
+						</div>
+						<div class="product__basket">
+							<i class="far fa-shopping-bag"></i>
+							<span>В корзину</span>
+						</div>
+					</div>
 				</div>
 				<div class="product__item">
 					<div class="product__img">
@@ -177,7 +209,17 @@
 							<span class="weight">50 гр</span>
 						</div>
 					</div>
-					<div class="product__buy"></div>
+					<div class="product__buy">
+						<div class="product__more">
+							<i class="fal fa-minus"></i>
+							<span>1</span>
+							<i class="fal fa-plus"></i>
+						</div>
+						<div class="product__basket">
+							<i class="far fa-shopping-bag"></i>
+							<span>В корзину</span>
+						</div>
+					</div>
 				</div>
 			</div>
 		</div>
@@ -188,19 +230,71 @@
 				<a href="#">Популярные категории продукции</a>
 			</h2>
 			<div class="popular-category__row">
+				<a class="category__item" href="#">
+					<h3>Мёд</h3>
+					<span>6 разных вкусов</span>
+				</a>
 				<div class="category__item">
-				
+					<a class="category__item-top" href="#">
+						<h3>Травы</h3>
+						<span>собраны в предгорьях Алтая</span>
+					</a>
+					<a class="category__item-bottom" href="#">
+						<h3>Масла</h3>
+						<span>облепиховое, кедровое и другие</span>
+					</a>
 				</div>
-				<div class="category__item">
-				
-				</div>
-				<div class="category__item">
-				
-				</div>
+				<a class="category__item" href="#">
+					<h3>Травяные чаи</h3>
+					<span>вкусные или для лечения</span>
+				</a>
 			</div>
 			<a class="all-category grey-btn" href="#">Все категории</a>
 		</div>
 	</section>
+	<section class="about-product">
+		<div class="container">
+			<div class="about-product__box">
+				<h2>О продукции</h2>
+				<div class="about-product__row">
+					<div class="about-product__item">
+						<p>Вся продукция магазина производится исключительно из натуральных ингредиентов, собранных в
+							территории экологической зоны Алтайского края и республики Алтай. Качество продукции
+							подтверждено сертификатами качества.</p>
+						<a class="green-btn" href="#">Сертификаты качества</a>
+					</div>
+					<div class="about-product__item">
+						<p>Собственное производство продукции с соблюдением всех необходимых норм и требований позволяет
+							нам гарантировать качество продукта, которое подтверждают и наши покупателя, оставляя отзывы
+							на нашем сайте.</p>
+						<a class="green-btn" href="#">Наше производство</a>
+					</div>
+					<div class="about-product__item item-feature">
+						<span class="number">250</span>
+						<span class="kg">кг</span>
+						<span class="phrase">продукции в месяц выдает производство</span>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<div class="container">
+		<section class="about-shop">
+			<div class="about-shop__item">
+				<h2>О магазине</h2>
+				<p>Мы — АлтайВита. Основана в августе 2012 года, занимаемся продажей всего полезного с Алтая по всей
+					России и миру. С большой ответственностью подходим к своей работе, вследствие чего клиенты с ещё
+					большей охотой оставляют много добрых отзывов о нашей продукции и работе интернет-магазина.</p>
+				<p>С 2016 года объединили под одной крышей офис, склад и фасовочный цех, которым особенно гордимся.</p>
+				<a class="grey-btn" href="#">История компании</a>
+			</div>
+			<div class="about-shop__item">
+				<div class="staff-img">
+					<img src="img/home/staff-img.jpg" alt="Девушка">
+				</div>
+			</div>
+		</section>
+	</div>
 </main>
 <footer>
 
