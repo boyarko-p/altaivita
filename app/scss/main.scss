@@ -14,26 +14,56 @@ body {
   a {
     text-decoration: none;
     cursor: pointer;
+
+    &:hover {
+      text-decoration: none;
+    }
   }
 
-  ul,li {
+  ul, li {
     margin: 0;
     padding: 0;
     list-style: none;
   }
 
+  .green-btn {
+    display: inline-block;
+    padding: 15px 40px;
+    text-transform: uppercase;
+    line-height: 1;
+    font-weight: 500;
+    border-radius: 50px;
+    color: #ffffff;
+    background: #7aa600;
+  }
+
+  .grey-btn {
+    display: inline-block;
+    padding: 15px 40px;
+    text-transform: uppercase;
+    line-height: 1;
+    font-weight: 500;
+    border-radius: 50px;
+    border: 2px solid #8b9096;
+    color: #8b9096;
+  }
+
   &.active {
     background-color: green;
   }
+
   &.active-1 {
     background-color: blue;
   }
+
   input, textarea {
     border: #666 1px solid;
     outline: none;
+
     &:focus:required:invalid {
       border-color: red;
     }
+
     &:required:valid {
       border-color: green;
     }
@@ -44,6 +74,7 @@ body {
   display: block;
   max-width: 100%;
   height: auto;
+
   &.img-width {
     width: 100%;
   }
