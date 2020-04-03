@@ -11,6 +11,12 @@ body {
   overflow-x: hidden;
   color: #000;
 
+  .container {
+    margin: 0 auto;
+    padding: 0 15px;
+    max-width: 1320px;
+  }
+
   h2 {
     margin-bottom: 40px;
     font-size: 34px;
