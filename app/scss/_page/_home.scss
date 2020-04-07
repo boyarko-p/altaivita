@@ -191,17 +191,61 @@ h1 {
 }
 
 .promo-slider {
+  margin-bottom: 45px;
   padding: 50px 110px 85px;
   height: 350px;
   position: relative;
   background: url("../../img/home/promo-slider.jpg") center/cover no-repeat, #000000;
   color: #ffffff;
 
-  & i.fa-chevron-left:before {
+  & i.fa-chevron-left {
     position: absolute;
+    top: 50%;
+    left: 25px;
+    transform: translateY(-50%);
+    font-size: 30px;
+  }
+
+  & i.fa-chevron-right {
+    position: absolute;
+    top: 50%;
+    right: 25px;
+    transform: translateY(-50%);
     font-size: 30px;
   }
 }
+
+.promo-slider__inner {
+  width: 330px;
+
+  & h2 {
+    margin-bottom: 20px;
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 1.3;
+  }
+
+  & p {
+    margin-bottom: 25px;
+    font-size: 20px;
+  }
+}
+
+.advantages {
+  display: flex;
+
+  & .advantages__item {
+    margin-right: 80px;
+    width: 33%;
+    position: relative;
+  }
+}
+
+.advantages__item:last-child {
+  margin: 0;
+}
+
+
 
 
 
