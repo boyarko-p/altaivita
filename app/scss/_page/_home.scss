@@ -6,9 +6,9 @@
 }
 
 .header__main-logo {
-  margin-right: 80px;
+  margin-right: 20px;
   width: 140px;
-  height: 113px;
+  height: auto;
 
   & a {
     display: block;
@@ -21,14 +21,17 @@
 }
 
 .header__top {
-  margin-bottom: 30px;
+  margin-bottom: 25px;
   display: flex;
+  align-items: flex-end;
   justify-content: space-between;
 }
 
 .header__top-center {
-  margin: 18px 30px 0 0;
-  flex-grow: 1;
+  margin: 0 20px 0 0;
+  padding-top: 18px;
+  width: 57.5%;
+  flex: 0 1 auto;
 }
 
 .header__phone {
@@ -73,13 +76,132 @@
     background: #ffffff;
   }
 
-  & button:focus {
-    outline: none;
-  }
-
   & i {
     font-size: 24px;
     opacity: 0.6;
   }
 }
+
+.header__top-right {
+  width: 23.4%;
+}
+
+.header__profile {
+  padding-left: 30px;
+  margin-bottom: 20px;
+
+  & button {
+    padding: 0;
+    display: flex;
+    border: none;
+    background: #ffffff;
+  }
+
+  & i {
+    margin-right: 15px;
+    display: inline-block;
+    font-size: 24px;
+    color: #8b9096;
+  }
+
+  & span {
+    color: #8b9096;
+  }
+}
+
+.header__basket {
+  & button {
+    padding: 10px 30px;
+    width: 100%;
+    display: flex;
+    text-align: center;
+    border: none;
+    border-radius: 50px;
+    background: #1453a5;
+    color: #ffffff;
+  }
+
+  & i {
+    margin-right: 15px;
+    display: inline-block;
+    font-size: 24px;
+  }
+}
+
+.header__nav {
+  padding-bottom: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header__nav-list {
+  display: flex;
+  align-items: center;
+  text-transform: uppercase;
+
+  & li {
+    margin-right: 30px;
+  }
+
+  & button {
+    background: inherit;
+    border: none;
+
+    & & i {
+      font-size: 20px;
+      color: #1453a5;
+    }
+  }
+
+  &.left li:first-child {
+    margin-right: 12px;
+  }
+
+  & li:last-child {
+    margin: 0;
+  }
+
+  &.left {
+    margin-right: 30px;
+
+    &.left a {
+      color: #1453a5;
+    }
+  }
+
+  &.right a {
+    color: #8b9096;
+  }
+}
+
+//TODO------------------------MAIN---------------------------------
+
+//TODO------------------------PROMO-SLIDER-------------------------
+
+.main {
+  padding-top: 40px;
+}
+
+h1 {
+  margin-bottom: 40px;
+  font-size: 40px;
+  font-weight: 300;
+  line-height: 1.2;
+}
+
+.promo-slider {
+  padding: 50px 110px 85px;
+  height: 350px;
+  position: relative;
+  background: url("../../img/home/promo-slider.jpg") center/cover no-repeat, #000000;
+  color: #ffffff;
+
+  & i.fa-chevron-left:before {
+    position: absolute;
+    font-size: 30px;
+  }
+}
+
+
 
